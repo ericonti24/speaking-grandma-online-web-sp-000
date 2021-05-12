@@ -15,7 +15,7 @@
 #speak_to_grandma = gets.chomp
 
 def speak_to_grandma
-if speak_to_grandma == "I LOVE YOU GRANDMA!"
+if speak_to_grandma == "I love you grandma!".uppercase
   puts "I LOVE YOU PUMPKIN!"
 elsif speak_to_grandma == "Hows the weather?"
   puts "Huh?! Speak up, sonny!"
