@@ -20,7 +20,7 @@ def speak_to_grandma(phrase)
          if phrase == "I LOVE YOU GRANDMA!"
 				     return "I LOVE YOU TOO PUMPKIN!"
 				 elsif phrase != phrase.upcase
-				     return "HUH?! SPEAK UP SONNY!"
+				     return "HUH?! SPEAK UP, SONNY!"
 				 else phrase == phrase.upcase #if our argument of phrase is EQUAL TO phrase.upcase (uppercase) then its true!
 				      return "NO, NOT SINCE 1938!"      #so grandma responds....
 				end
