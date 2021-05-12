@@ -14,10 +14,12 @@
 
 speak_to_grandma = gets.chomp
 
+def speak_to_grandma
 if speak_to_grandma == "I LOVE YOU GRANDMA!"
   puts "I LOVE YOU PUMPKIN!"
 elsif speak_to_grandma == "Hows the weather?"
   puts "Huh?! Speak up, sonny!"
 else
   puts "No, not since 1938!"
+  end
 end
