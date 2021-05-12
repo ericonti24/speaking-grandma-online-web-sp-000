@@ -14,8 +14,11 @@
 
 #speak_to_grandma = gets.chomp
 
-def speak_to_grandma
-if speak_to_grandma == "I LOVE YOU GRANDMA!"
-  puts "I LOVE YOU PUMPKIN!"
+input_phrase = "Hi Nana, how are you?"
+
+def speak_to_grandma(phrase)
+  if phrase == phrase.uppercase
+    puts "NO, NOT SINCE 1938!"
+  else
+    puts "HUH? SPEAK UP, SONNY!"
   end
-end
