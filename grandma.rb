@@ -18,6 +18,6 @@ if speak_to_grandma == "I LOVE YOU GRANDMA!"
   puts "I LOVE YOU PUMPKIN!"
 elsif speak_to_grandma == "Hows the weather?"
   puts "Huh?! Speak up, sonny!".uppercase
-else 
+else
   puts "No, not since 1938!".uppercase
 end
