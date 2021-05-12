@@ -15,11 +15,11 @@
 #speak_to_grandma = gets.chomp
 
 def speak_to_grandma(phrase)
-    if phrase != phrase.upcase()
-      return "HUH?! SPEAK UP, SONNY!"
-    elsif phrase == phrase.upcase
-      return "I LOVE YOU PUMPKIN!"
-    else
-      return "NO, NOT SINCE 1938!"
-    end
+  if phrase == "I LOVE YOU GRANDMA!"
+    return "I LOVE YOU PUMPKIN!"
+  elsif phrase != phrase.uppercase
+    return "HUH, SPEAK UP, SONNY!"
+  else phrase == phrase.uppercase
+    return "NO, NOT SINCE 1938!"
   end
+end
